@@ -6,7 +6,7 @@ from os import getenv
 
 API_KEY = "WNWXNV"
 
-if not API_KEY or API_KEY == "Paste Your Key Here" or API_KEY == "":
+if not API_KEY or API_KEY == "WNWXNV" or API_KEY == "WNWXNV":
     API_KEY = getenv("API_KEY")
 
     if not API_KEY:
