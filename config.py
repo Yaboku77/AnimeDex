@@ -4,7 +4,7 @@
 from os import getenv
 
 
-API_KEY = "WNWXNV"
+API_KEY = "https://api3.bgtoons.workers.dev"
 
 if not API_KEY or API_KEY == "Paste Your Key Here" or API_KEY == "":
     API_KEY = getenv("API_KEY")
